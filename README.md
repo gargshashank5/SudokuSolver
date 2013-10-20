@@ -22,3 +22,7 @@ You@Yourcomputer:~$ cd sudokudirectory //files are in sudoku_directory
 You@Yourcomputer:~/sudokudirectory$ make
 You@Yourcomputer:~/sudokudirectory$ ./sudoku
 ```
+Note
+----------
+
+If you are not using g++ compiler. Edit the makefile accordingly. 
