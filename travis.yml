@@ -1,0 +1,10 @@
+language: cpp
+compiler:
+  - clang
+  - gcc
+notifications:
+  recipients:
+    - garg.shashank.5@gmail.com
+  email:
+    on_success: change
+    on_failure: always
