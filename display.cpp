@@ -6,7 +6,7 @@ int empty_cells();
 extern int sudoku[9][9];
 void read_file()
 /*
-reads the incomplete sudoku from the sudoku.txt
+reads the incomplete sudoku from the sudoku.txt and enters into sudoku array
 */
 {
     int a,b;
@@ -39,7 +39,7 @@ reads the incomplete sudoku from the sudoku.txt
     else cout << "Unable to open file";
 }
 void print_sudoku()
-/*prints the sudoku*/
+/*prints the sudoku from the array*/
 {
      int a,b;
      a=0;
